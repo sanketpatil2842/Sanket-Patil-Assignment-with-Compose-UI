@@ -59,9 +59,10 @@ fun DashboardProductScreen(
                             )
                             Text(
                                 text = items.title ?: "",
+                                maxLines = 3,
                                 modifier = Modifier
                                     .padding(2.dp)
-                                    .height(50.dp),
+                                    .height(55.dp),
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 14.sp
                             )
